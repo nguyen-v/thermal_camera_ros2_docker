@@ -1,0 +1,2 @@
+# Create a symlink for easy access as /dev/imu
+SUBSYSTEM=="video4linux", ATTR{index}=="0", ATTRS{idVendor}=="0bda", ATTRS{idProduct}=="5830", SYMLINK+="video_thermal"
