@@ -27,7 +27,7 @@ To delete the rules, you can run:
 
 ## Building the docker image
 ```bash
-docker build -t thermal_camera_ros2:latest
+docker build -t thermal_camera_ros2:latest .
 ```
 
 ## Running the node
